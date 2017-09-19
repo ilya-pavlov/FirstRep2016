@@ -113,7 +113,7 @@ namespace revcom_bot
                         if (message.Text == "/hello")
                         {
                             // в ответ на команду /saysomething выводим сообщение
-                            await Bot.SendTextMessageAsync(message.Chat.Id, "Здарова! :)", replyToMessageId: message.MessageId);
+                            await Bot.SendTextMessageAsync(message.Chat.Id, "Ну здарова! Как сам? :)", replyToMessageId: message.MessageId);
                         }
                         if (message.Text == "/help")
                         {
