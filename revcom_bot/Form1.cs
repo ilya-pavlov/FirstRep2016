@@ -167,7 +167,7 @@ namespace revcom_bot
                         // обработка reply кнопок
                         if (message.Text.ToLower() == "накатим!")
                         {
-                            await Bot.SendTextMessageAsync(message.Chat.Id, "Ну, за охоту!", replyToMessageId: message.MessageId);
+                            await Bot.SendTextMessageAsync(message.Chat.Id, "Ну, за здоровье!", replyToMessageId: message.MessageId);
                         }
                         if (message.Text.ToLower() == "рря!")
                         {
